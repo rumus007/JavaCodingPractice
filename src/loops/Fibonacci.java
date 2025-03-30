@@ -1,3 +1,4 @@
+package src.loops;
 import java.util.Scanner;
 
 /**
