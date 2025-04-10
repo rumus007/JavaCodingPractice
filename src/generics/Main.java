@@ -11,5 +11,8 @@ public class Main {
         integerPrinter.print();
         floatPrinter.print();
         doublePrinter.print();
+
+        BoundedGenericPrinter<Integer> bIntergerPrinter = new BoundedGenericPrinter<>(1999);
+        bIntergerPrinter.print();
     }
 }
