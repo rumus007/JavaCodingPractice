@@ -24,6 +24,23 @@ public class Main {
 
         multiParameterGenericMethod(1, "String", 5.55D);
         multiParameterGenericMethod(10000L, 'r', 3.14f);
+
+
+
+        // My own Stack Data type implementing LIFO
+        MyStack<String> stringLIFO = new MyStack<>();
+        System.out.println(stringLIFO.peek());
+        System.out.println(stringLIFO.isEmpty());
+
+        stringLIFO.push("First");
+        stringLIFO.push("Second");
+        stringLIFO.push("Third");
+        stringLIFO.push("Fourth");
+
+        System.out.println(stringLIFO.isEmpty());
+        System.out.println(stringLIFO.peek());
+        System.out.println(stringLIFO.pop());
+        
     }
 
     public static void testingGenericSwap(){
